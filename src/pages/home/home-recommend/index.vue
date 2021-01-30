@@ -3,7 +3,7 @@
  * @Author: yuli
  * @Date: 2021-01-29 19:54:11
  * @LastEditors: yuli
- * @LastEditTime: 2021-01-30 14:43:41
+ * @LastEditTime: 2021-01-30 14:52:04
 -->
 <template>
   <scroll-view
@@ -75,6 +75,10 @@ export default {
     }
   },
   mounted() {
+    //修改页面标题
+    uni.setNavigationBarTitle({
+      title: "推荐",
+    })
     this.getList()
   },
   methods: {
