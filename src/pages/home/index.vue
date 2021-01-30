@@ -3,7 +3,7 @@
  * @Author: yuli
  * @Date: 2021-01-29 15:30:35
  * @LastEditors: yuli
- * @LastEditTime: 2021-01-30 10:06:18
+ * @LastEditTime: 2021-01-30 17:24:30
 -->
 <template>
   <view>
@@ -54,7 +54,7 @@ export default {
   data() {
     return {
       items: [{ title: "推荐" }, { title: "分类" }, { title: "最新" }, { title: "专辑" }],
-      current: 0,
+      current: 3,
     }
   },
   methods: {

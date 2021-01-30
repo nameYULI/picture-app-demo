@@ -3,7 +3,7 @@
  * @Author: yuli
  * @Date: 2021-01-29 19:54:11
  * @LastEditors: yuli
- * @LastEditTime: 2021-01-30 14:52:04
+ * @LastEditTime: 2021-01-30 17:15:44
 -->
 <template>
   <scroll-view
@@ -134,7 +134,7 @@ export default {
   flex-wrap: wrap;
   .recommend_item {
     width: 50%;
-    border: 3px solid #fff;
+    border: 3rpx solid #fff;
   }
 }
 .month_wrap {
@@ -168,7 +168,7 @@ export default {
     flex-wrap: wrap;
     .month_content_item {
       width: 33.33%;
-      border: 3px solid #fff;
+      border: 3rpx solid #fff;
     }
   }
 }
@@ -187,7 +187,7 @@ export default {
     flex-wrap: wrap;
     .hot_item {
       width: 33.33%;
-      border: 3px solid #fff;
+      border: 3rpx solid #fff;
     }
   }
 }
