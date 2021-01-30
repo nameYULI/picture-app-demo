@@ -3,7 +3,7 @@
  * @Author: yuli
  * @Date: 2021-01-29 15:30:35
  * @LastEditors: yuli
- * @LastEditTime: 2021-01-29 20:44:05
+ * @LastEditTime: 2021-01-30 10:06:18
 -->
 <template>
   <view>
@@ -63,14 +63,6 @@ export default {
         this.current = e.currentIndex
       }
     },
-  },
-  onLoad() {
-    //封装的异步请求的简单使用
-    this.request({
-      url: "http://157.122.54.189:9088/image/v3/homepage/vertical",
-    }).then((res) => {
-      console.log(res)
-    })
   },
 }
 </script>
